@@ -1,0 +1,120 @@
+/*
+this file contains the CSS for the website
+*/
+
+/*
+text font
+*/
+/*
+/* Use a web-safe font to cut down on bandwidth. */
+* {
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+span {
+	font-size: 95%;
+}
+/*
+text selection color
+*/
+*::selection { background:#DDDDDD; color:#000000;/*#3DFAFF;*/ }
+
+/*
+font color
+*/
+html{ color: #003326; }
+/*
+links
+*/
+a:link {text-decoration: none; color: #008060;/*#48BEFF;*/ font-size: 100%}
+a:visited {text-decoration: none; color: #008060;/*#48BEFF;*/ font-size: 100%}
+a::selection {background: #DDDDDD; color: #008060;/*#48BEFF;*/ font-size: 100%}
+/*
+background
+*/
+body {
+        background: #FFFFFF;/*#060F07; #02080A; color: #cfcfcf;*/
+        margin-left: 10px;
+        margin-right: 10px;
+}
+/*
+table
+*/
+table,th,td {
+	border-style:none;
+
+}
+th,td{
+	text-align: center;
+}
+/*th{
+	font-size: 115%;
+}*/
+
+table{
+	width: 100%;
+}
+
+/*
+text in <h1>
+*/
+h1 {
+	text-align: center;
+	font-size: 155%;
+}
+
+/*
+buttons
+*/
+button{
+	color: #008060;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+}
+
+/*
+inputs
+*/
+input{
+	color: #003326;/*#3DFAFF;*/
+	font-family: "Courier New", Courier, monospace;
+	border: 1px solid #003326;
+	background-color: #FFFFFF;
+}
+
+/*
+strong text
+
+strong{
+	color: #3DFAFF;
+	}
+*/
+/* used for footer divs */
+.footer{
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+}
+
+/* ul default style */
+ul{
+	list-style-type: none;
+	font-family: "Courier New", Courier, monospace;
+}
+
+/* Styling for nav elements. */
+nav{
+	padding: 5px;
+	color: #003326;
+	text-align: center;
+	font-size: 130%;
+}
+
+.nav_link {
+	border-bottom-color: #003326;
+	border-bottom: 1px;
+	border-bottom-style: dotted;
+	/*font-size: 135%;*/
+}
