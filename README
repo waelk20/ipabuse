@@ -1,2 +1,7 @@
 Tracking abusive IPs and ASNs.  
-Including relevant fail2ban filters.
+Including relevant fail2ban filters.  
+
+Contributing:  
+Feel free to send us a patch, PR or open an issue:  
+In the first two cases, it has to include the ASN added to the lists with the entire range and a commit explaining (tersly) why it was added.  
+In the latter case just explain the reasoning on why a group of IPs/an ASN is being abusive and we'll handle the rest (in case we deem it to be so).
