@@ -2,3 +2,7 @@ AS14061 - DigitalOcean
 AS8075 - Microsoft
 AS136907 - Huawei Clouds
 AS132203 - Tencent
+AS398324 - Censys
+AS16509 - Amazon
+AS16276 - OVH
+AS24940 - Hetzner
